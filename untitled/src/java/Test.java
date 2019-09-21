@@ -8,7 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class Test {
     @RequestMapping(value = "/index")
     public String index(){
+        next();
         return "";
+    }
+
+    public void next(){
+        System.out.println("test");
     }
 
 }
