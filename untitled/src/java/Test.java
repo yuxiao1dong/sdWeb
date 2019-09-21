@@ -17,6 +17,8 @@ public class Test {
         System.out.println("test");
     }
 
-    public void mext(){System.out.println("1111111");};
+    public void mext(){
+        System.out.println("1111111");
+    };
 
 }
