@@ -19,6 +19,10 @@ public class Test {
 
     public void mext(){
         System.out.println("1111111");
-    };
+    }
+
+    private void a(){
+        
+    }
 
 }
