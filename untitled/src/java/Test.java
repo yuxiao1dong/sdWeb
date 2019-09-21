@@ -9,11 +9,14 @@ public class Test {
     @RequestMapping(value = "/index")
     public String index(){
         next();
+        mext();
         return "";
     }
 
     public void next(){
         System.out.println("test");
     }
+
+    public void mext(){};
 
 }
